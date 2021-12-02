@@ -1,0 +1,58 @@
+.saved-locations {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: $AzulClaro;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out all;
+}
+
+.all-location-card {
+  display: flex;
+  white-space: nowrap;
+  height: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.locations-card {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: $white;
+  padding: 1rem;
+  border-right: 0.1rem solid $white;
+  width: 30rem;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .location-name {
+    width: 100%;
+  }
+
+  .ellipsis-vertical-outline {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+// Button LEFT AND RIGHT
+
+#left {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+}
+
+#right {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+}
